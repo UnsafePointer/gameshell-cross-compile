@@ -1,6 +1,8 @@
 # GameShell Cross Compiling
 
-![gameshell.jpg](gameshell.jpg)
+![gameshell.gif](gameshell.gif)
+
+> GameShell running [ruby](https://github.com/Ruenzuo/ruby) PlayStation emulator, a C++ SDL2 OpenGL 3.3 project.
 
 ### [crosstool-NG](http://crosstool-ng.github.io/)
 
