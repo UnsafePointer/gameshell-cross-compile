@@ -20,5 +20,7 @@ Once you have a cross compile toolchain (building takes a while), you’re ready
 ```bash
 $ ./configure --host=armv7l-unknown-linux-gnueabihf --build=x86_64-linux-gnu --disable-pulseaudio --prefix=/usr
 $ make
+$ chmod -R +w ~/x-tools/armv7l-unknown-linux-gnueabihf/armv7l-unknown-linux-gnueabihf/sysroot
 $ make DESTDIR=~/x-tools/armv7l-unknown-linux-gnueabihf/armv7l-unknown-linux-gnueabihf/sysroot install
+$ chmod -R -w ~/x-tools/armv7l-unknown-linux-gnueabihf/armv7l-unknown-linux-gnueabihf/sysroot
 ```
